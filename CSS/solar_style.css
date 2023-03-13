@@ -1,0 +1,206 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --hover-color: #a9a32a;
+  --grey-color: #868585;
+  --white-color: #ffffff;
+  --black-color: #303030;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.header {
+  min-height: 900px;
+  background-image: url(/img/Header_BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white-color);
+}
+.header_title {
+  padding-top: 17px;
+  /*Отступ внутри блока от верхней границы*/
+  margin-bottom: 73px;
+  /*Отступ от верхнего блока до заголовка*/
+  display: flex;
+  /*Элементы выстраиваются в одну линию*/
+  justify-content: space-between;
+  /*Расставляет элементы по разные стороны блока*/
+  align-items: flex-end;
+  /*Выравнивает элементы по нижней линии*/
+}
+.container {
+  max-width: 1021px;
+  margin: 0 auto;
+}
+
+.text-h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  display: flex;
+  margin: 0 auto 3px;
+  max-width: 932px;
+}
+
+.text-h2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 182px;
+  height: 51px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.text-p18 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.52px;
+  width: 315px;
+  height: 25px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.text-discriptor {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  display: flex;
+  margin: 0 auto 50px;
+  max-width: 589px;
+}
+
+.consult_button {
+  position: absolute;
+  left: 45%;
+  transform: translateX(-55%);
+}
+.text-button {
+  position: absolute;
+  left: 50.5%;
+  transform: translateX(-50%);
+  margin-top: 60px;
+  padding-left: 50px;
+}
+
+.media {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  max-width: 240px;
+  margin-top: 400px;
+}
+
+.media-item_img {
+  min-height: 35px;
+}
+
+.media-item {
+  margin-right: 20px;
+}
+
+.media-item:last-child {
+  margin-right: 0px;
+}
+.services {
+  max-width: 1021px;
+  margin: 0 auto;
+}
+
+.h1-servises {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--grey-color);
+  text-transform: uppercase;
+  max-width: 1199px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.servises_about {
+  max-width: 1199px;
+  margin: 0 auto;
+  display: flex;
+  /*Элементы выстраиваются в одну линию*/
+  justify-content: space-between;
+  /*Расставляет элементы по разные стороны блока*/
+  align-items: flex-start;
+  /*Выравнивает элементы по нижней линии*/
+}
+
+.servises_about-text {
+}
+
+.about-text1 {
+  max-width: 510px;
+  margin-bottom: 50px;
+}
+
+.about-text2 {
+  max-width: 510px;
+  margin-bottom: 50px;
+}
+
+.about-text3 {
+  max-width: 510px;
+  margin-bottom: 50px;
+}
+
+.about-text4 {
+  max-width: 510px;
+}
+.text-h2_about {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: var(--black-color);
+}
+.text-p14 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.passive_income {
+  min-height: 500px;
+  background-image: url(../IMG/Passive_income.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.discriptor_income {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  color: var(--white-color);
+  max-width: 673px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 128px;
+}
